@@ -1,9 +1,8 @@
-gr-remotecar
+# gr-remotecar
 
 
 
-INSTALL
-=======
+## INSTALL
 
     mkdir build
     cd build
@@ -12,8 +11,7 @@ INSTALL
     sudo ldconfig
 
 
-TRY
-===
+## TRY
 
 refer to examples/
 
@@ -21,15 +19,27 @@ refer to examples/
 
 
 
+## Just replay it.
+
+on `examples/tx.sh` and `examples/rx.sh` , I demo how to capture the car's remote signal and just replay it. And it turns out to make the car run.
+
+    cd examples
+    ./rx.sh car.iq
+    ./tx.sh car.iq
+
+and it means: 
+
+        hackrf_transfer -t car.iq -f 27000000 -s 8000000 -a 1 -l 30 -i 30 -x 40 
+
+27000000 is for 27MHz, you may find the frequency sign on you car's remote.
 
 
-Principle
-=========
+
+## Principle
 
 We support two kind of remote car control : 
 
-RemoteCarBaseBand
------------------
+### RemoteCarBaseBand
 ![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarBaseBand/AMDemod.png)
 
 
@@ -44,16 +54,15 @@ RemoteCarBaseBand
                -->|                              TIME2                 |<---
 
 
-TIME0 = 520us
-TIME3 = 300us to 1.3ms
-TIME4 = 300us to 1.3ms
-TIME2 = 20ms
+        TIME0 = 520us
+        TIME3 = 300us to 1.3ms
+        TIME4 = 300us to 1.3ms
+        TIME2 = 20ms
 
 TIME3 and TIME4 controls car's accelerator and direction.
 
 
-RemoteCarIIBaseBand
---------------------
+### RemoteCarIIBaseBand
 ![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/0.55ms.png)
 ![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/1.65ms.png)
 ![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/AM_DEMOD.png)

@@ -15,7 +15,7 @@
 
 refer to examples/
 
-`examples/WheelPulse/Wheel.py` is a simple PySide based controller which you can control your toy car with keyboard direction keys. And it is for RemoteCarIIBaseBand
+`examples/WheelPulse/Wheel.py` is a simple PySide based controller which you can control your toy car with keyboard direction keys. And it is for [RemoteCarIIBaseBand](#remotecariibaseband)
 
 
 

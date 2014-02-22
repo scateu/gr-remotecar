@@ -30,6 +30,7 @@ We support two kind of remote car control :
 
 RemoteCarBaseBand
 -----------------
+![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarBaseBand/AMDemod.png)
 
 
                     -->|TIME3  |<--   TIME4
@@ -53,6 +54,9 @@ TIME3 and TIME4 controls car's accelerator and direction.
 
 RemoteCarIIBaseBand
 --------------------
+![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/0.55ms.png)
+![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/1.65ms.png)
+![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/AM_DEMOD.png)
 
     +----------+     +----------+     +----------+     +----------+     +-----+     +-----+                        
     |          |     |          |     |          |     |          |     |     |     |     |                 
@@ -67,6 +71,9 @@ RemoteCarIIBaseBand
 
 
 and we can simply capture it with HackRF using a AM demode gnuradio-companion workflow.
+
+![](https://raw.github.com/scateu/gr-remotecar/master/docs/RemoteCarIIBaseBand/grc.png)
+it is on `examples/analysis.grc`
 
     Left: n=58
     Right: n=64

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="classgr_1_1remotecar_1_1RemoteCarBaseBand" kind="class"><name>gr::remotecar::RemoteCarBaseBand</name>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarBaseBand_1abd07f170b0f96b20ecefb023822e87c1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarBaseBand_1a5cad8e8bfd49069b2adcba2ec3b0c378" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarBaseBand_1a09c3084995c32215f3fb23f09a192c2e" kind="function"><name>set_up_down</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarBaseBand_1af078fb37b26452b31f37a947f881d82b" kind="function"><name>set_left_right</name></member>
+  </compound>
+  <compound refid="classgr_1_1remotecar_1_1RemoteCarIIBaseBand" kind="class"><name>gr::remotecar::RemoteCarIIBaseBand</name>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarIIBaseBand_1a2f9cee0937ebe93b1742cc5a21687271" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarIIBaseBand_1a9cda08446a4a06cfc77bda95293d6617" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarIIBaseBand_1ad8bacd135671ac77f524a4b98f8a3b89" kind="function"><name>set_run</name></member>
+    <member refid="classgr_1_1remotecar_1_1RemoteCarIIBaseBand_1a40e6931b4875ba3ae31bcc81b2582f29" kind="function"><name>set_command</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1remotecar" kind="namespace"><name>gr::remotecar</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a61dd68b9776742a41049a839a86742ef" kind="define"><name>REMOTECAR_API</name></member>
+  </compound>
+  <compound refid="RemoteCarBaseBand_8h" kind="file"><name>RemoteCarBaseBand.h</name>
+  </compound>
+  <compound refid="RemoteCarIIBaseBand_8h" kind="file"><name>RemoteCarIIBaseBand.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/include</name>
+  </compound>
+  <compound refid="dir_f61fccafb4d4b69f46ba2867fc0b256d" kind="dir"><name>/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/include/remotecar</name>
+  </compound>
+</doxygenindex>

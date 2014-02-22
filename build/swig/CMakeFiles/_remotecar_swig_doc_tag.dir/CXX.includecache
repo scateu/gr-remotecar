@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/swig/_remotecar_swig_doc_tag.cpp
+

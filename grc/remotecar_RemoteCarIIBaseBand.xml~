@@ -1,0 +1,38 @@
+<block>
+  <name>Remotecariibaseband</name>
+  <key>remotecar_RemoteCarIIBaseBand</key>
+  <category>REMOTECAR</category>
+  <import>import remotecar</import>
+  <make>remotecar.RemoteCarIIBaseBand($samp_rate,$run, $command)</make>
+  <callback>set_run($run)</callback>
+  <callback>set_command($command)</callback>
+
+  <param>
+    <name>Sample Rate</name>
+    <key>samp_rate</key>
+    <type>real</type>
+  </param>
+  <param>
+    <name>Run</name>
+    <key>run</key>
+    <value>True</value>
+    <type>bool</type>
+    <option>
+        <name>Off</name>
+        <key>False</key>
+    </option>
+    <option>
+        <name>On</name>
+        <key>True</key>
+    </option>
+  </param>
+  <param>
+    <name>Command</name>
+    <key>command</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

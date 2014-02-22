@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libgnuradio-remotecar.so -o libgnuradio-remotecar.so CMakeFiles/gnuradio-remotecar.dir/RemoteCarBaseBand_impl.cc.o CMakeFiles/gnuradio-remotecar.dir/RemoteCarIIBaseBand_impl.cc.o -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so -Wl,-rpath,/usr/local/lib: 

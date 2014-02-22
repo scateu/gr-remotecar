@@ -1,0 +1,16 @@
+/usr/local/lib/cmake/remotecar/remotecarConfig.cmake
+/usr/local/include/remotecar/api.h
+/usr/local/include/remotecar/RemoteCarBaseBand.h
+/usr/local/include/remotecar/RemoteCarIIBaseBand.h
+/usr/local/lib/libgnuradio-remotecar.so
+/usr/local/lib/python2.7/dist-packages/remotecar/_remotecar_swig.so
+/usr/local/lib/python2.7/dist-packages/remotecar/remotecar_swig.py
+/usr/local/lib/python2.7/dist-packages/remotecar/remotecar_swig.pyc
+/usr/local/lib/python2.7/dist-packages/remotecar/remotecar_swig.pyo
+/usr/local/include/remotecar/remotecar/swig/remotecar_swig.i
+/usr/local/include/remotecar/remotecar/swig/remotecar_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/remotecar/__init__.py
+/usr/local/lib/python2.7/dist-packages/remotecar/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/remotecar/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/remotecar_RemoteCarBaseBand.xml
+/usr/local/share/gnuradio/grc/blocks/remotecar_RemoteCarIIBaseBand.xml

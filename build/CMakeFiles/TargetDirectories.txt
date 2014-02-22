@@ -1,0 +1,9 @@
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/swig/CMakeFiles/_remotecar_swig.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/swig/CMakeFiles/_remotecar_swig_doc_tag.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/swig/CMakeFiles/_remotecar_swig_swig_tag.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/lib/CMakeFiles/gnuradio-remotecar.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/python/CMakeFiles/pygen_python_f524a.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/swig/CMakeFiles/pygen_swig_06297.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/lib/CMakeFiles/test-remotecar.dir
+/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/CMakeFiles/uninstall.dir

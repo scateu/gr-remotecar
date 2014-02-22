@@ -1,0 +1,28 @@
+<block>
+  <name>Remotecarbaseband</name>
+  <key>remotecar_RemoteCarBaseBand</key>
+  <category>REMOTECAR</category>
+  <import>import remotecar</import>
+  <make>remotecar.RemoteCarBaseBand($samp_rate, $up_down, $left_right)</make>
+  <callback>set_up_down($up_down)</callback>
+  <callback>set_left_right($left_right)</callback>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <type>real</type>
+  </param>
+  <param>
+    <name>Up_down</name>
+    <key>up_down</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Left_right</name>
+    <key>left_right</key>
+    <type>float</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

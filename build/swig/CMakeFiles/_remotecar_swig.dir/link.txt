@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,_remotecar_swig.so -o _remotecar_swig.so CMakeFiles/_remotecar_swig.dir/remotecar_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-remotecar.so -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so -Wl,-rpath,/home/scateu/hackrf/01Book/files/RemoteControlledCar/gr-remotecar/build/lib:/usr/local/lib: 

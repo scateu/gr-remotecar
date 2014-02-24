@@ -70,7 +70,7 @@ We support two kind of remote car control :
         TIME4 = 300us to 1.3ms
         TIME2 = 20ms
 
-TIME3 and TIME4 controls car's accelerator and direction.
+TIME3 and TIME4 control car's accelerator and direction.
 
 
 ### RemoteCarIIBaseBand

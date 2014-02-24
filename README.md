@@ -1,5 +1,16 @@
 # gr-remotecar
 
+I wrote a GNURadio module to generate control signal for toy remote controlled car, and a Qt(PySide) GUI to listen keyboard press.
+
+detail and source code: 
+http://github.com/scateu/gr-remotecar
+
+blog:
+http://hackrf.net
+
+## DEMO
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/fQVa6FR0HiI" frameborder="0" allowfullscreen></iframe>
 
 
 ## INSTALL

@@ -8,9 +8,9 @@ http://github.com/scateu/gr-remotecar
 blog:
 http://hackrf.net
 
-## DEMO
+## Video DEMO
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/fQVa6FR0HiI" frameborder="0" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/fQVa6FR0HiI/0.jpg)](http://www.youtube.com/watch?v=fQVa6FR0HiI)
 
 
 ## INSTALL
